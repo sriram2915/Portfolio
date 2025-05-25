@@ -130,7 +130,7 @@ export function ContactSection() {
                   asChild
                 >
                   <a
-                    href="https://github.com/yourusername"
+                    href="https://github.com/sriram2915"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -144,7 +144,7 @@ export function ContactSection() {
                   asChild
                 >
                   <a
-                    href="https://linkedin.com/in/yourusername"
+                    href="https://linkedin.com/in/sriram291"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -157,7 +157,7 @@ export function ContactSection() {
                   className="hover:scale-110  text-black dark:text-white hover:text-primary dark:hover:text-primary transition-all duration-300"
                   asChild
                 >
-                  <a href="mailto:your.email@example.com">
+                  <a href="mailto:your.sriramsekar28@gmail.com">
                     <Mail className="h-5 w-5" />
                   </a>
                 </Button>
