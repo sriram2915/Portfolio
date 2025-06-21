@@ -39,7 +39,7 @@ export function HeroSection() {
         >
           <div className="relative w-56 h-56 sm:w-72 sm:h-72 md:w-[26rem] md:h-[26rem] rounded-full overflow-hidden ring-4 ring-primary/30 shadow-2xl">
             <img
-              src="./portSri.jpg"
+              src="./Sri.jpg"
               alt="Sri Ram S"
               className="object-cover w-full h-full"
               loading="lazy"
@@ -87,7 +87,12 @@ export function HeroSection() {
               className="border-primary/30 hover:border-primary/50 transition-all duration-300"
               asChild
             >
-              <a href="/resume.pdf" download aria-label="Download Resume">
+              <a
+                href="/resume.pdf"
+                aria-label="Download Resume"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Download className="mr-2 h-5 w-5" />
                 Download Resume
               </a>
