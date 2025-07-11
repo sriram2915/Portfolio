@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
+import { SiLeetcode } from "react-icons/si";
 
 export function ContactSection() {
   const { toast } = useToast();
@@ -135,6 +136,16 @@ export function ContactSection() {
                     rel="noopener noreferrer"
                   >
                     <Github className="h-5 w-5" />
+                  </a>
+                </Button>
+                <Button
+                  variant="outline"
+                  size="icon"
+                  className="hover:scale-110  text-black dark:text-white hover:text-primary dark:hover:text-primary transition-all duration-300"
+                  asChild
+                >
+                  <a href="https://leetcode.com/sriram291" target="_blank" rel="noopener noreferrer">
+                    <SiLeetcode className="h-5 w-5" />
                   </a>
                 </Button>
                 <Button
